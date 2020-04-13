@@ -38,3 +38,7 @@
         $ fwatchdog
 
 1. Your changes will be automatically synchronized. Just stop and start the watchdog to see them applied.
+
+
+TODO:
+1. Update sample to use `nodemon` for automatic reload
