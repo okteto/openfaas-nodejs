@@ -1,7 +1,7 @@
 name: api
 labels: 
   faas_function: api
-image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs:dev
+image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs
 command:
 - sh
 workdir: /home/app
