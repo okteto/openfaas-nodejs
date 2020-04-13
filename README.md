@@ -41,4 +41,4 @@
 
 
 TODO:
-1. Update sample to use `nodemon` for automatic reload
+1. Update `okteto.yaml` to use `nodemon` for automatic reload instead of starting and stopping `fwatchdog`
