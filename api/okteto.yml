@@ -1,10 +1,11 @@
 name: api
 labels: 
   faas_function: api
-image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs
+image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs:dev
 command:
 - sh
-workdir: /home/app/function
+workdir: /home/app
+mountpath: /home/app/function
 persistentVolume:
   enabled: false
 
