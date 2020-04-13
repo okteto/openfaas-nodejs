@@ -1,0 +1,10 @@
+name: api
+labels: 
+  faas_function: api
+image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs
+command:
+- sh
+workdir: /home/app/function
+persistentVolume:
+  enabled: false
+
