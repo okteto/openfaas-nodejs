@@ -1,5 +1,7 @@
 # Develop an NodeJS function with OpenFaaS and Okteto Cloud
 
+![Develop an NodeJS function with OpenFaaS and Okteto Cloud](screenshot.png)
+
 ## Run your function in Okteto Cloud
 1. Deploy `OpenfaaS` from the application catalog.
 
