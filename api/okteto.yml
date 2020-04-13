@@ -3,8 +3,8 @@ labels:
   faas_function: api
 command:
 - sh
-  workdir: /home/app
-  mountpath: /home/app/function
-  persistentVolume:
-    enabled: false
+workdir: /home/app
+mountpath: /home/app/function
+persistentVolume:
+  enabled: false
 
