@@ -2,7 +2,7 @@
 
 module.exports = async (event, context) => {
   const result = {
-    'status': 'Received input1: ' + JSON.stringify(event.body)
+    'status': 'Hello World! You said: ' + JSON.stringify(event.body)
   }
 
   return context

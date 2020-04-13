@@ -3,8 +3,8 @@ provider:
   name: openfaas
   gateway: https://openfaas-ingress-rberrelleza.cloud.okteto.net
 functions:
-  api:
+  hello:
     lang: node12
-    handler: ./api
+    handler: ./hello
     image: registry.cloud.okteto.net/rberrelleza/openfaas-nodejs
 

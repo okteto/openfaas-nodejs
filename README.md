@@ -23,14 +23,14 @@
 
 1. Verify that everything works fine: 
 
-        faas-cli invoke api
+        faas-cli invoke hello
 
 
 ## Develop your function in Okteto Cloud
 
-1. Go to the `api` folder and launch your development environment. `okteto.yml` is already configured with everything you need to develop your function: 
+1. Go to the `hello` folder and launch your development environment. `okteto.yml` is already configured with everything you need to develop your function: 
         
-        cd api
+        cd hello
         okteto up
 
 1. To start your function, just call the `fwatchdog` process in your remote development environment: 

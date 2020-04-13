@@ -1,6 +1,6 @@
-name: api
+name: hello
 labels: 
-  faas_function: api
+  faas_function: hello
 command:
 - sh
 workdir: /home/app
