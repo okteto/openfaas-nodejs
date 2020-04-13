@@ -17,7 +17,7 @@
 
 1. [Login to the Okteto Registry](https://okteto.com/docs/cloud/registry#authentication) 
 
-        docker login registry.okteto.cloud.net
+        docker login registry.cloud.okteto.net
 
 1. Build and launch your image
   
